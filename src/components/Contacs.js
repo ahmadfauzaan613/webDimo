@@ -7,26 +7,25 @@ function Contacs() {
   return (
     <Fade>
       <div id="contacs" className="mt-[3%]">
-        <div className="grid grid-cols-2 h-[50vh]">
-          <div className="bg-[#EAB200]">
-            <p className="text-[38px] text-center pt-[2%] font-Quicksand font-bold text-white">Contact Us</p>
-            <p className="px-[11%] pt-[2%] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea ex totam, possimus rem ad magnam sit, quaerat recusandae aut reiciendis reprehenderit accusantium? Odit quam ipsa tempora modi quis eum.</p>
+        <div class="grid desktop3:grid-cols-2 desktop:grid-cols-2 phone:h-[45vh] desktop2:grid-cols-2 laptop:grid-cols-2 h-[35vh] laptop:h-[40vh] desktop:h-[40vh] desktop2:h-[40vh]">
+          <div class="bg-[#EAB200] tablet:pb-[30px]">
+            <p className="desktop3:text-[38px] desktop:text-[32px] desktop2:text-[32px] phone:text-[24px]  tablet:text-[24px] laptop:text-[24px] text-center pt-[2%] font-Quicksand font-bold text-white">Contact Us</p>
             <a href="https://wa.me/+6281371017363" target="_blank" rel="noopener noreferrer">
-              <div className="px-[11%] pt-[3%] flex items-center gap-x-[3%]">
+              <div className="desktop3:px-[11%] desktop:px-[7%] desktop2:px-[7%] pt-[3%] flex items-center gap-x-[3%] phone:px-[5%] tablet:px-[5%] laptop:px-[8%]">
                 <img src={Pone} className="w-[24px]" alt="" />
-                <p className="text-white text-[20px]">0813 7101 7363</p>
+                <p class="text-white text-[20px] desktop:text-[16px] desktop2:text-[16px] phone:text-[14px] tablet:text-[16px] laptop:text-[16px]">0852-6323-8701</p>
               </div>
             </a>
             <a href="mailto:telagass7@gmail.com" target="_blank" rel="noopener noreferrer">
-              <div className="px-[11%] pt-[3%] flex items-center gap-x-[3%]">
+              <div class="desktop3:px-[11%] desktop:px-[7%] desktop2:px-[7%] laptop:px-[8%] pt-[3%] flex items-center gap-x-[3%] phone:px-[5%] tablet:px-[5%]">
                 <img src={Email} className="w-[24px]" alt="" />
-                <p className="text-white text-[20px]">telagass7@gmail.com</p>
+                <p class="text-white text-[20px] desktop:text-[16px] desktop2:text-[16px] phone:text-[14px] tablet:text-[16px] laptop:text-[16px]">telagass7@gmail.com</p>
               </div>
             </a>
             <a href="https://goo.gl/maps/BwxeQDE7ENKhfLm58" target="_blank" rel="noopener noreferrer">
-              <div className="px-[11%] pt-[3%] flex items-center gap-x-[3%]">
+              <div class="desktop3:px-[11%] desktop:px-[7%] desktop2:px-[7%] laptop:px-[8%] pt-[3%] flex items-center gap-x-[3%] phone:px-[5%] tablet:px-[5%]">
                 <img src={Location} className="w-[24px]" alt="" />
-                <p className="text-white text-[20px]">Jl. Patria Sari IV, Umbansari, Rumbai Pekanbaru, Riau</p>
+                <p class="text-white text-[20px] desktop:text-[16px] desktop2:text-[16px] phone:text-[14px] tablet:text-[16px] laptop:text-[16px]">Jl. Patria Sari IV, Umbansari, Rumbai Pekanbaru, Riau</p>
               </div>
             </a>
           </div>
